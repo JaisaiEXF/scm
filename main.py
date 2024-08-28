@@ -15,6 +15,8 @@ import configparser
 config = configparser.ConfigParser()
 config.read('properties.ini')
 
+#comments added to reflect in git
+
 corsOrigin = config['DEFAULT']['corsOrigin']
 mongodbUri  = config['DEFAULT']['mongodbUri']
 database  = config['DEFAULT']['database']
